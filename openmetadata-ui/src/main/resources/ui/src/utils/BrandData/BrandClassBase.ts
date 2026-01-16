@@ -13,8 +13,8 @@
 import WelcomeScreenSrc from '../../assets/img/welcome-screen.png';
 import MonogramSrc, {
   ReactComponent as Monogram,
-} from '../../assets/svg/logo-monogram.svg';
-import LogoSrc, { ReactComponent as Logo } from '../../assets/svg/logo.svg';
+} from '../../assets/svg/logo-monogram-dg.svg';
+import LogoSrc, { ReactComponent as Logo } from '../../assets/svg/logo-dg.svg';
 import { t } from '../i18next/LocalUtil';
 
 class BrandClassBase {

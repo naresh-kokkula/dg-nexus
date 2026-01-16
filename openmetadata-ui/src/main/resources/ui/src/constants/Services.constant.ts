@@ -99,7 +99,7 @@ import searchDefault from '../assets/svg/ic-custom-search.svg';
 import { default as storageDefault } from '../assets/svg/ic-custom-storage.svg';
 import { default as driveDefault } from '../assets/svg/ic-drive-service.svg';
 import restService from '../assets/svg/ic-service-rest-api.svg';
-import logo from '../assets/svg/logo-monogram.svg';
+import logo from '../assets/svg/logo-monogram-dg.svg';
 import openSearch from '../assets/svg/open-search.svg';
 import pipelineDefault from '../assets/svg/pipeline.svg';
 import securitySafe from '../assets/svg/security-safe.svg';
