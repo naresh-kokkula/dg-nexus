@@ -37,6 +37,7 @@ import { ReactComponent as Help } from '../../assets/svg/ic-help.svg';
 import { ReactComponent as RefreshIcon } from '../../assets/svg/ic-refresh.svg';
 import { ReactComponent as SidebarCollapsedIcon } from '../../assets/svg/ic-sidebar-collapsed.svg';
 import { ReactComponent as SidebarExpandedIcon } from '../../assets/svg/ic-sidebar-expanded.svg';
+import { ReactComponent as LogoBrand } from '../../assets/svg/logo-coforge.svg';
 import {
   DEFAULT_DOMAIN_VALUE,
   LAST_VERSION_FETCH_TIME_KEY,
@@ -462,6 +463,7 @@ const NavBar = () => {
                 }
               />
             </Tooltip>
+            <LogoBrand className="mr-2" width={150} />
             {!isHomePage && !isTourPage && (
               <>
                 <GlobalSearchBar />

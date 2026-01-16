@@ -14,6 +14,12 @@ RED='\033[0;31m'
 
 cd "$(dirname "${BASH_SOURCE[0]}")" || exit
 
+# Use Podman if Docker is missing
+if ! command -v docker &> /dev/null && command -v podman &> /dev/null; then
+    echo "Docker not found — using Podman instead"
+    docker() { podman "$@"; }
+fi
+
 helpFunction()
 {
    echo ""
